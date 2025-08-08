@@ -1,0 +1,17 @@
+# Python virtual environments
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Node.js build/output
+frontend/node_modules/
+frontend/.next/
+
+# Editor swap/backup files
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
