@@ -1,15 +1,18 @@
-# Python virtual environments
+# Python virtual environment
 venv/
 
 # Python cache and compiled files
 __pycache__/
 *.pyc
 
-# Node.js build/output
+# Node.js dependencies and build output
 frontend/node_modules/
 frontend/.next/
 
-# Editor swap/backup files
+# Model files and other large binaries
+*.zip
+
+# Editor backup/swap files
 *.swp
 *.swo
 
