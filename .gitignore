@@ -1,20 +1,32 @@
-# Python virtual environment
+# Python virtual environments
 venv/
+env/
+ENV/
+.venv/
 
-# Python cache and compiled files
+# Bytecode and cache files
 __pycache__/
 *.pyc
 
-# Node.js dependencies and build output
-frontend/node_modules/
-frontend/.next/
+# FastF1 cache and SQLite files
+cache/
+.cache/
+*.sqlite
 
-# Model files and other large binaries
+# Model checkpoints and archives
 *.zip
+*.tar.gz
+*.h5
+*.pth
 
-# Editor backup/swap files
-*.swp
-*.swo
+# TensorBoard logs for different algorithms
+tensorboard_sac/
+tensorboard_ddpg/
+*.tensorboard
 
-# macOS system files
+# OS generated files
 .DS_Store
+
+# Temporary and log files
+*.test
+*.log
